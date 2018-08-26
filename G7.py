@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import quandl
 import datetime
-from scipy.stats import norm
 quandl.ApiConfig.api_key = '8qNu5k13WLNT-6tRKj9M'
 
 def data_download(start='2007-01-01',end=datetime.date.today()):
